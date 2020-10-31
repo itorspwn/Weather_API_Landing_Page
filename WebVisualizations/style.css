@@ -33,16 +33,19 @@ body {
   line-height: 30px;
   text-align: justify;
   }
-  p {
+  #summ_text{
+    float: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
+    font-size: 12px;
     color: rgb(66, 66, 66);
-    text-align: justify;
+    text-align: start;
     }
   #summary {
     float: left;
-    height: 320px;
+    height: 280px;
     width: 370px;
+ 
+
     }
   #figure {
     position: static;
