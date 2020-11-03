@@ -24,6 +24,7 @@ body {
     }
 
   div .jumbotron {
+  position: relative;
   margin-top: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -44,8 +45,13 @@ body {
     float: left;
     height: 280px;
     width: 370px;
- 
-
+  }
+  #summary2 {
+     float: left;
+      height: 350px;
+      width: 480px;
+      align-items: center;
+      
     }
   #figure {
     position: static;
@@ -56,10 +62,21 @@ body {
     color:#2aa0a0;
     font-weight: bold;
      }
+  #subheader{
+    text-align: center;
+    padding-left: 30px;
+    float: relative;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#2aa0a0;
+    font-weight: ;
+      }
  #vis {
-   float: relative;
+   float: inline-start;
     margin-top: 5px;
+    margin-right: px;
     margin-bottom: 5px;
+    margin-left: px;
     height: 180px;
     width: 220px;
     }
@@ -70,6 +87,11 @@ body {
       background: rgb(255, 255, 255);
     }
     
+    .box-set2 {
+      position: relative;
+      height: 900px;
+      background: rgb(255, 255, 255);
+    }
     
     
     .box-1 {
@@ -88,4 +110,17 @@ body {
 
     }
 
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
 
+  table {
+      border-style: solid;
+      border-color: grey;
+      border-width: 1px;
+
+
+    }
